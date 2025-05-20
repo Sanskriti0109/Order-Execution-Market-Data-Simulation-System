@@ -57,12 +57,14 @@ A modular, high-performance trading system prototype built in C. This project si
 - GCC Compiler (Linux/MSYS2 for Windows)
 - `libcurl` (only if extended to real API)
 
+## Output
+![Image](https://github.com/user-attachments/assets/f5e1a3f9-fd8c-451c-8568-0040abb113a4)
+
+![Image](https://github.com/user-attachments/assets/74e51f37-9b68-4836-8150-319ef9a70ead)
+
 ### 🛠️ Compile
 
 ```bash
 gcc main.c src/*.c -Iinclude -o trading_system -lcurl
 
-## Output
-![Image](https://github.com/user-attachments/assets/f5e1a3f9-fd8c-451c-8568-0040abb113a4)
 
-![Image](https://github.com/user-attachments/assets/74e51f37-9b68-4836-8150-319ef9a70ead)
